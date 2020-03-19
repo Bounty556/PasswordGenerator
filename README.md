@@ -60,3 +60,4 @@ You are required to submit the following for review:
 ## Credits
 
 Bootstrap (https://getbootstrap.com/)
+Google Fonts (https://fonts.google.com/)

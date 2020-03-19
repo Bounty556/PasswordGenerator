@@ -2,6 +2,40 @@ body {
   background-color: #EEE;
 }
 
-.generator {
+h1 {
+  font-size: 30px;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 35px;
+}
+
+.jumbotron {
   background-color: white;
+  font-family: 'Inter', sans-serif;
+  padding: 20px 15px;
+}
+
+.jumbotron h2 {
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+#generator-output {
+  border: 2px dashed #CCC;
+  border-radius: 5px;
+  padding: 15px;
+  min-height: 150px;
+}
+
+#generator-text {
+  font-family: 'Inconsolata', monospace;
+  font-weight: 700;
+  color: gray;
+  text-align: center;
+}
+
+#generate-password {
+  display: block;
+  margin: 15px auto 0px auto;
+  padding: 8px 20px;
+  border-radius: 25px;
 }
