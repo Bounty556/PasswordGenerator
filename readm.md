@@ -25,14 +25,14 @@ Invalid inputs include:
 The Password Generator can be accessed here: [Link](https://bounty556.github.io/PasswordGenerator/)
 
 Here is an example run and output of the program:
-![Image](./assets/example.png)
+![Example](./assets/example.png)
 
 ----------------------------------------------------------
 ## Credits
 ----------------------------------------------------------
 
-Bootstrap [Link](https://getbootstrap.com/)
-Google Fonts [Link](https://fonts.google.com/)
+* [Boostrap](https://getbootstrap.com/)
+* [Google Fonts](https://fonts.google.com/)
 
 ----------------------------------------------------------
 ## License
