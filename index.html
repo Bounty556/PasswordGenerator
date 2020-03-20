@@ -31,9 +31,49 @@
         <div class="col-md-8 shadow p-3 mb-5 bg-white rounded">
           <div class="jumbotron">
             <h2>Generate a Password</h2>
-            
+            <p>Include:</p>
+
             <!-- User options -->
+            <input type="text" id="num-characters" placeholder="Number of Characters" />
+
+            <br />
+
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-secondary active">
+                <input type="radio" name="options" id="lower-case" checked> Lowercase
+              </label>
+              <label class="btn btn-secondary">
+                <input type="radio" name="options" id="upper-case"> Uppercase
+              </label>
+              <label class="btn btn-secondary">
+                <input type="radio" name="options" id="both-case"> Both
+              </label>
+              <label class="btn btn-secondary">
+                <input type="radio" name="options" id="no-case"> None
+              </label>
+            </div>
             
+            <br />
+
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-secondary active">
+                <input type="radio" name="options" id="numeric" checked> Numeric
+              </label>
+              <label class="btn btn-secondary">
+                <input type="radio" name="options" id="non-numeric"> Non-Numeric
+              </label>
+            </div>
+
+            <br />
+
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-secondary active">
+                <input type="radio" name="options" id="special" checked> Special
+              </label>
+              <label class="btn btn-secondary">
+                <input type="radio" name="options" id="non-special"> Non-Special
+              </label>
+            </div>
 
             <hr class="my-2"/>
             <div id="generator-output">
