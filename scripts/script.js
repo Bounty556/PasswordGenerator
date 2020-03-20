@@ -6,6 +6,9 @@ document.getElementById('generate-password').addEventListener('click', function(
     if (isNaN(assumedValue)) {
         alert('Please enter a valid number');
         return;
+    } else if (assumedValue < 8 || assumedValue > 128) {
+        alert('Number of characters must be between 8 and 128');
+        return;
     }
 
     // Generate password based on clicked options
