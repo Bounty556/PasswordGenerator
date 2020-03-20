@@ -58,7 +58,13 @@ function getCaseString() {
 
 // Determines whether we're using numbers, and returns valid string of possible characters
 function getNumString() {
-    return '2';
+    var numericButton = document.getElementById('numeric');
+
+    if (numericButton.checked) {
+        return '0123456789';
+    } else {
+        return '';
+    }
 }
 
 // Determines whether we're using special characters, and returns valid string of possible characters
