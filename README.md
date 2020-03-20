@@ -22,7 +22,7 @@ Invalid inputs include:
 ## Usage
 ----------------------------------------------------------
 
-The Password Generator can be accessed here: [Link](https://bounty556.github.io/PasswordGenerator/)
+The Password Generator can be accessed here: [https://bounty556.github.io/PasswordGenerator/](https://bounty556.github.io/PasswordGenerator/)
 
 Here is an example run and output of the program:
 ![Example](./assets/example.png)
@@ -31,7 +31,7 @@ Here is an example run and output of the program:
 ## Credits
 ----------------------------------------------------------
 
-* [Boostrap](https://getbootstrap.com/)
+* [Bootstrap](https://getbootstrap.com/)
 * [Google Fonts](https://fonts.google.com/)
 
 ----------------------------------------------------------
