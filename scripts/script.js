@@ -41,7 +41,19 @@ function generatePassword(numCharacters) {
 
 // Determines which letter-case we're using, and returns valid string of possible characters
 function getCaseString() {
-    return '1';
+    var lowerButton = document.getElementById('lower-case');
+    var upperButton = document.getElementById('upper-case');
+    var bothButton = document.getElementById('both-case');
+
+    if (lowerButton.checked) {
+        return 'abcdefghijklmnopqrstuvwxyz';
+    } else if (upperButton.checked) {
+        return 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    } else if (bothButton.checked) {
+        return 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    } else {
+        return '';
+    }
 }
 
 // Determines whether we're using numbers, and returns valid string of possible characters
