@@ -69,5 +69,11 @@ function getNumString() {
 
 // Determines whether we're using special characters, and returns valid string of possible characters
 function getSpecialCharacters() {
-    return '3';
+    var specialButton = document.getElementById('special');
+
+    if (specialButton.checked) {
+        return ' !"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~';
+    } else {
+        return '';
+    }
 }
